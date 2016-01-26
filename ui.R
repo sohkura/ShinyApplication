@@ -17,7 +17,7 @@ shinyUI(fluidPage(
         For eacn mpg graph, you can further analyze the impacts by 
         choosing the Color. Clicking Regression Line will draw the regresion 
         line with 95% confidence interval. Finally you can manipulate the 
-        mean which will trigger to auto-calcuate the corresponding Mean Sum 
+        mean which will trigger to auto-calcuate the corresponding Mean Squared 
         Error by playing around the scroll bar of MPG at the mean."),
 
     sidebarPanel(
@@ -42,7 +42,7 @@ shinyUI(fluidPage(
         plotOutput('plot'),
         h4("Mean of MPG Manipulated"),
         verbatimTextOutput("text1"),
-        h4("Mean Sum Error Calculated"),
+        h4("Mean Squared Error Calculated"),
         verbatimTextOutput("text2")
         
     )
