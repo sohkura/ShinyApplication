@@ -33,25 +33,23 @@ The tool was developed to provide an interactive analysis for the car mileage pe
 
 1. It provides a scatter plot to show the mpg (mile per gallon) in the Y axis and all other parameters in the X axis. Y axis is fixed, however you can change the X axis by selecting the value from the X axis drop down menu that are from 'mtcars' data set.
 
-The default is 'mpg' vs ' mpg'. Please select an item from the X axis drop down menu. The toll redraw the plot based on your selection,
+2. The default is 'mpg' vs ' mpg'. Please select an item from the X axis drop down menu. The toll redraw the plot based on your selection,
 
-2. It further provides additional color code classifications in the graph by selecting the Color value from the Color drop down menu that are from 'mtcars' data set.
+3. It further provides additional color code classifications in the graph by selecting the Color value from the Color drop down menu that are from 'mtcars' data set.
 
-The default is not selected, i.e., 'None'. Once you select the color from the drop down, each point will be color coded based on the item selected. You will see the legend outside of the graph.
+4. The default is not selected, i.e., 'None'. Once you select the color from the drop down, each point will be color coded based on the item selected. You will see the legend outside of the graph.
 
-3. For each plot, the regression line can be plotted to the graph. 
+5. For each plot, the regression line can be plotted to the graph. 
 
-Please click 'Regression Line' check box, which will draw a regression line with smooth curve with 85% confidence interval. 
+6. Please click 'Regression Line' check box, which will draw a regression line with smooth curve with 85% confidence interval. 
 
-4. Tt provides a manipulate capability to allow moving around the mean value of the mpg so that it moves the mean in the graph and that auto-calculates the mean squared error for each mean selected.
+7. Tt provides a manipulate capability to allow moving around the mean value of the mpg so that it moves the mean in the graph and that auto-calculates the mean squared error for each mean selected.
 
-This is for fun. When you move the cursor back and forth under the 'Play MPG at the mean', the mean horizontal line will move accordingly, and the mean value and mean square error values will be displyed in the corresponding text boxes.
+8. This is for fun. When you move the cursor back and forth under the 'Play MPG at the mean', the mean horizontal line will move accordingly, and the mean value and mean square error values will be displyed in the corresponding text boxes.
 
 # Source Code
 
-There are 2 files: 
-1) ui.R
-3) server.R 
+There are 2 files: 'ui.R' and 'server.R'. 
 
 The code is simple that uses standard implementations that we learned.
 
